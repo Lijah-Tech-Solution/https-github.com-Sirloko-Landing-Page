@@ -5,23 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Technotrics Systems - Creative Design Agency</title>
+  <title>Technotrics Systems - Contact Us</title>
   <meta name="description" content="">
   <meta name="keywords" content="web-development,mobile-app,digital marketting,training,it-support,domain-registration">
   <meta name="author" content="">
 
-  <!-- Font Awesome if you need it
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  -->
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+
+	<link href="css/aos.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="css/aos.js"></script>
+	<link href="css/style.css" rel="stylesheet">
   <!--Replace with your tailwind.css once created-->
 
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
 
 	<!-- Define your gradient here - use online tools to find a gradient matching your branding-->
 	<style>
 		.gradient {
-			background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+			/* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+			background: linear-gradient(90deg, #aa3c14 0%, #b9a73e 100%);
 		}
 	</style>
 
@@ -35,12 +36,8 @@
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 			
 		<div class="pl-4 flex items-center">
-			<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
-				<!-- <img src="tis.png"> -->
-				<!-- <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-				<rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
-				<path class="plane-take-off" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "/>
-				</svg> --> Technotrics Systems
+			<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="index.html"> 
+			 Technotrics Systems
 			</a>
 		</div>
 
@@ -53,19 +50,17 @@
 		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
 			<ul class="list-reset lg:flex justify-end flex-1 items-center">
 				<li class="mr-3">
-					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Home</a>
+					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="index.html#home">Home</a>
 				</li>
 				<li class="mr-3">
-					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">About</a>
+					<a class="inline-block text-black no-underline page-scroll scroll hover:text-gray-800 hover:text-underline py-2 px-4" href="index.html#services">Services</a>
 				</li>
 				<li class="mr-3">
-					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Services</a>
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.html#team">Our Team</a>
 				</li>
 			</ul>
-			<button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Request a Quote</button>
 		</div>
 	</div>
-	
 	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
 </nav>
 
@@ -90,84 +85,73 @@
 	</svg>
 </div>
 
-
-  	
-</div>
 <section class="bg-gray-300 py-8">
+	<div class="container mx-auto px-2 pt-2 pb-12 text-gray-300" data-aos="fade-up">
+		<h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Contact Us</h2>
+		<div class="flex flex-col sm:flex-row  justify-center pt-4 my-4 sm:my-4">
+			<form class="w-full bg-white max-w-lg px-4 py-4 rounded">
+				<div class="flex flex-wrap -mx-3 mb-6">
+					<div class="w-full px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="fullname">
+					Full Name
+					</label>
+					<input required class="appearance-none block w-full bg-gray-500 text-gray-700 border border-gray-300 rounded py-3
+					px-4 mb-3 leading-tight focus:bg-white focus:border-gray-500 focus:outline-none" id="fullname" type="text" placeholder="Jane Doe">
+				</div> 
+				</div>
+				<!-- Name and email -->
+				<div class="flex flex-wrap -mx-3 mb-6">
+				<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="phone_number">
+					Phone Number
+					</label>
+					<input required class="appearance-none block w-full bg-gray-500 text-gray-700 border 
+					border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:bg-white focus:border-gray-500 focus:outline-none" id="phone_number" type="text" placeholder="08012345678">
+				</div>
+				<div class="w-full md:w-1/2 px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
+					Email
+					</label>
+					<input required class="appearance-none block w-full bg-gray-500 text-gray-700 border  rounded py-3 px-4 leading-tight 
+					focus:outline-none focus:bg-white focus:border-gray-500 focus:outline-none" id="email" type="text" placeholder="johndoe@email.com">
+					<p class="text-red-500 text-xs italic">Please fill out this field.</p>
+				</div>
+				</div>
 
-	<div class="container mx-auto px-2 pt-4 pb-12 text-gray-300">
-
-		
-		<div class="flex flex-col sm:flex-row  justify-center pt-12 my-12 sm:my-4">
-			
-				<form class="w-full bg-white max-w-lg px-3 py-3 rounded">
-				  <div class="flex flex-wrap -mx-3 mb-6">
-				   	 <div class="w-full px-3">
-				      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-				        Full Name
-				      </label>
-				      <input class="appearance-none block w-full bg-gray-500 text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:bg-white focus:border-gray-500 focus:outline-none" id="grid-name" type="text" placeholder="Jane Doe">
-				    </div> 
-				  </div>
-				  <!-- Name and email -->
-				  <div class="flex flex-wrap -mx-3 mb-6">
-				    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-				      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-				        Phone Number
-				      </label>
-				      <input class="appearance-none block w-full bg-gray-500 text-gray-700 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:bg-white focus:border-gray-500 focus:outline-none" id="grid-name" type="text" placeholder="Jane Doe">
-				    </div>
-				   
-				    <div class="w-full md:w-1/2 px-3">
-				      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-				        Email
-				      </label>
-				      <input class="appearance-none block w-full bg-gray-500 text-gray-700 border  rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 focus:outline-none" id="grid-last-name" type="text" placeholder="Doe">
-				      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-				    </div>
-				  </div>
-				  <div class="inline-block relative w-64">
-				  	 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-				        Subject
-				      </label>
-					  <select class="block appearance-none w-full bg-gray-500 border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:bg-gray-500 focus:border-gray-500">
-					    <option>Enquiry</option>
-					    <option>Idea</option>
-					    <option>Request</option>
-					    <option>Complaint</option>
-					    <option>Project</option>
-					  </select>
-					  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-					    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-					  </div>
+				<div class="inline-block relative w-64">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
+					Subject
+					</label>
+					<select class="block appearance-none w-full bg-gray-500 border border-gray-400 hover:border-gray-500
+						px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:bg-gray-700">
+					<option>Enquiry</option>
+					<option>Idea</option>
+					<option>Request</option>
+					<option>Complaint</option>
+					<option>Project</option>
+					</select>
+					<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+					<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
 					</div>
-				  <div class="flex flex-wrap -mx-3 mb-6">
-				    <div class="w-full px-3">
-				      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-				        Description
-				      </label>
-				      <textarea class="appearance-none block w-full bg-gray-500 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" rows="10" cols="20">
-				      	
-				      </textarea> 
-				      <p class="text-gray-600 text-xs italic">Feel free to express yourself</p>
-				    </div>
-				  </div>
-				  <div>
-				  	<button id="navAction" class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Submit</button>
-				  	
-				  </div>
-				  
-				    </div>
-				  </div>
-				</form>
-			
-			
+				</div>
 
+				<div class="flex flex-wrap -mx-3 mb-6">
+				<div class="w-full px-3">
+					<label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+					Description
+					</label>
+					<textarea class="appearance-none block w-full bg-gray-500 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" rows="10" cols="20">
+					
+					</textarea> 
+					<p class="text-gray-600 text-xs italic">Feel free to express yourself</p>
+				</div>
+				</div>
+				<div>
+				<button id="navAction" class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 gradient text-white">Submit</button>
+				</div>
+			</form>
 		</div>
-		
 	</div>
-		
-		
 </section>
 
 
@@ -181,11 +165,7 @@
 			<div class="flex-1 mb-6">
 			
 				<a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
-					<!--Icon from: http://www.potlabicons.com/ -->
-					<!-- <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-					<rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)" />
-					<path class="link" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "/>
-					</svg> --> Technotrics Systems
+					<img src="img/brand.png" class="w-56" alt="brand">
 					
 				</a>
 			</div>
@@ -225,25 +205,20 @@
                         <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">About Us</a>
                     </li>
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
+                        <a href="mailto:support@technotricssystems.com" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 	
-	<!-- <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a> -->
-
 </footer>
 
-
-
-
-  <!-- jQuery if you need it
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  -->
-
 <script>
+
+AOS.init({
+		duration: 1200,
+	})
 
 	var scrollpos = window.scrollY;
 	var header = document.getElementById("header");
